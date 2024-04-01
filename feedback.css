@@ -1,0 +1,76 @@
+/* box style*/
+.container {
+    color: black;
+    background-color: aqua;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #e26a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+max-width: 400px;
+float: left;
+}
+.img{ 
+        float: right; 
+        margin: 100px; 
+}
+/*  margin and padding */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(248, 152, 128);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Styling the header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling form elements */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Styling labels */
+label {
+    font-weight: bold;
+}
+
+/* Styling input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* Styling radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Styling submit button */
+input[type="submit"] {
+    background-color: blue;
+    color: #ffffff;
+    border: violet;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
